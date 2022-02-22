@@ -59,8 +59,7 @@ def get_charts_tracks(chart_id):
     result = response.json()["data"]
     for item in result:
         print([item["name"], item["url"]])
-
-get_charts()
+    return result 
 
 print("===========================================")
 try:
